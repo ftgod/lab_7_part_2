@@ -7,6 +7,8 @@ int x = 200;
 
 void draw() {
 noStroke();
+fill(0,150,0);
+rect(0,250,500,500);
 fill(255,255,255);
 rect(x+50, x, 100, 50);
 fill(255,255,255);
