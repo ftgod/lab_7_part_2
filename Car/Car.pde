@@ -1,21 +1,24 @@
 void setup() {
 size(500, 500);
-background(50,0,255);
+
 }
 
 int x = 200;
 
 void draw() {
+background(50,0,255);
 noStroke();
 fill(0,150,0);
 rect(0,250,500,500);
 fill(255,255,255);
-rect(x+50, x, 100, 50);
+rect(x+50, 200, 100, 50);
 fill(255,255,255);
-rect(x+70, x-25, 60, 50);
+rect(x+70, 175, 60, 50);
 fill(0);
-ellipse(x+70,x+50,25,25);
+ellipse(x+70,250,25,25);
 fill(0);
-ellipse(x+125,x+50,25,25);
+ellipse(x+125,250,25,25);
+if(x==0);
+x++;
 }
 
