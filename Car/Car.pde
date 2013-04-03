@@ -6,7 +6,7 @@ size(500, 500);
 int x = 200;
 
 void draw() {
-background(50,0,255);
+background(50,100,150);
 noStroke();
 fill(0,150,0);
 rect(0,250,500,500);
